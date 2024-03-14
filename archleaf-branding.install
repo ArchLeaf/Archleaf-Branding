@@ -1,8 +1,8 @@
 post_install() {
-	mv -f etc/os-release_crystal etc/os-release
-	mv -f usr/lib/os-release_crystal usr/lib/os-release
-	mv -f etc/issue_crystal etc/issue
-	mv -f etc/lsb-release_crystal etc/lsb-release
+	mv -f etc/os-release_archleaf etc/os-release
+	mv -f usr/lib/os-release_archleaf usr/lib/os-release
+	mv -f etc/issue_archleaf etc/issue
+	mv -f etc/lsb-release_archleaf etc/lsb-release
 	        
 	if [ -f /etc/default/grub ]; then
 		sed -i s/GRUB_DISTRIBUTOR=\"Arch\"/GRUB_DISTRIBUTOR=\"Crystal\"/g etc/default/grub

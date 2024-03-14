@@ -1,6 +1,6 @@
 # Maintainer: Crystal Linux Distribution Team <distribution@lists.getcryst.al>
 
-pkgname=Archleaf-Branding
+pkgname=archleaf-branding
 _pkgname=Logo
 pkgver=v1.0.0
 pkgrel=2
@@ -21,7 +21,7 @@ sha256sums=('e50d71236c7046cbaaa7c350e04f9b3542ffdef91fa3d9cd2bc67110a92a51aa'
 
 package () {
     cd "logo"
-    install -Dm 644 Logo/Branding-ArchLeaf.png "${pkgdir}/usr/share/pixmaps/Branding-ArchLeaf.png"
+    install -Dm 644 Logo/Branding-ArchLeaf.png "${pkgdir}/usr/share/pixmaps/branding-archLeaf.png"
     install -Dm 644 ../os-release_archleaf "${pkgdir}/etc/os-release_archleaf"
     install -Dm 644 ../os-release_archleaf "${pkgdir}/usr/lib/os-release_archleaf"
     install -Dm 644 ../issue_archleaf "${pkgdir}/etc/issue_archleaf"
