@@ -1,0 +1,7 @@
+NAME="ArchLeaf"
+PRETTY_NAME="ArchLeaf"
+ID=leaf
+BUILD_ID=rolling
+HOME_URL="https://gitea.com/Archleaf"
+LOGO=archleaf-branding
+ANSI_COLOR="0;35"
